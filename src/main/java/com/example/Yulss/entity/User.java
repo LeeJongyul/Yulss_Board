@@ -51,7 +51,7 @@ public class User {
     @Column(name = "delete_time")
     private LocalDateTime deleteTime;
 
-    @Column(name = "delete_flag", )  //??? default 0???
+    @Column(name = "delete_flag")  //??? default 0???
     private Long deleteFlag;
 
     /*
